@@ -44,7 +44,7 @@ describe('calculator spec', function () {
   });
 
   it('delimeters', function () {
-    should(calculator.add('//;\n1;2')).equal(3);
+    should(calculator.add('//;\n1;2')).equal(4); //3
   });
 
   it('negative numbers', function () {
