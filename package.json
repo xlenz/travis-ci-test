@@ -1,0 +1,32 @@
+{
+  "name": "travis-ci-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "~2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlenz/travis-ci-test.git"
+  },
+  "keywords": [
+    "mocha",
+    "test",
+    "travis",
+    "ci"
+  ],
+  "author": "mg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xlenz/travis-ci-test/issues"
+  },
+  "homepage": "https://github.com/xlenz/travis-ci-test"
+}
