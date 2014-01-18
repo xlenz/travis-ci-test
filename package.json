@@ -8,8 +8,7 @@
     },
     "dependencies": {
         "should": "~2.1.1",
-        "mocha": "~1.17.0",
-        "tape": "~2.3.2"
+        "mocha": "~1.17.0"
     },
     "devDependencies": {
         "should": "~2.1.1",
@@ -17,11 +16,13 @@
     },
     "testling": {
         "files": "test/*.js",
+        "scripts": "npm test",
         "harness": "mocha",
         "browsers": {
-            "chrome": [
-                32
-            ]
+            "ie": [10, 11],
+            "ff": [25, 26, 27],
+            "chrome": [20, 30, 31, 32],
+            "safari": [5.1]
         }
     },
     "scripts": {
